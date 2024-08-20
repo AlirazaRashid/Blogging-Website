@@ -1,0 +1,44 @@
+body{
+    background:url(pic/1558317.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    margin-top: 150px;
+    margin-left: 500px;
+    border: 10px solid black;
+    width: 600px;
+    height: 300px;
+}
+
+#main:hover{
+    color: azure;
+    border-radius: 100px;
+    transition: 2s;
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.msg:hover{
+    color: rgb(255, 0, 0);
+}
+
+.msg{
+    margin-left: 150px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.str{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    border-color: gray;
+}

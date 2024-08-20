@@ -1,0 +1,83 @@
+body{
+    background: url(pic/191366.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-color: rgba(100, 64, 64, 0.123);
+
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li .link{
+    text-decoration: none;
+    font-weight: 500px;
+    margin: 0 25px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.logo{
+ color: white;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.nav-button{
+    color: azure;
+    font-weight: 50px;
+}
+
+/* .btn{
+   
+    color: rgb(255, 15, 15);
+    margin-top: 400px;
+    margin-left: 600px;
+    font-weight: 50px;
+    font-size: 50px;
+} */
+
+.write{
+    
+    height: 300px;
+    width: 700px;
+    margin-left: 90px;
+}
+
+.blog  {
+ margin-top: 100px;
+ margin-left: 80px;
+ font-style: oblique;
+ font-size: 60px;
+}
+
+.blog1  {
+    margin-top: 0px;
+    margin-left: 200px;
+    font-style: oblique;
+    font-size: 60px;
+   }
+       
+    

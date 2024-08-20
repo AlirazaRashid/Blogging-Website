@@ -1,0 +1,132 @@
+body{
+    background: url(pic/th.jpg);
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(122, 114, 98, 0.021);
+
+}
+
+
+
+.card{
+   
+    max-width: 370px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgb(49, 48, 48);
+    background: white;
+    padding: 25px;
+    border-radius: 24px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid blue;   
+ 
+}
+
+.img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    
+   
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    
+}
+
+.job{
+    margin-bottom: 25px;
+}
+
+.media_button{
+    display: flex;
+    align-items: center;
+ 
+    
+}
+
+.link{
+    text-decoration: none;
+    margin-left: 30px;
+   
+    
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.follow{
+    height: 36px;
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: rgb(39, 39, 255);
+    color: white;
+}
+
+.follow:hover{
+    background-color: white;
+    color: blue;
+}   
+
+.massege{
+    height: 36px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: rgb(38, 38, 250);
+    color: white;
+    }
+
+.massege:hover{
+    background-color: white;
+    color: blue;
+}  
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.heat{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    color: black;
+    border-right: 1px solid black;
+}
+.heat span {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
